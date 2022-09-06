@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "906534131147",
+    "project_id": "teamsup-37a0b",
+    "storage_bucket": "teamsup-37a0b.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:906534131147:android:54d3f199f82cdf88b8124e",
+        "android_client_info": {
+          "package_name": "com.example.teamsup"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "906534131147-dugcatp3636gu47aconopnb9d1u4c3ak.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyApwrJggsdhiXyqbP5N4aZG6TqL0B6qSDU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "906534131147-dugcatp3636gu47aconopnb9d1u4c3ak.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

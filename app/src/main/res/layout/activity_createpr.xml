@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <TextView
+        android:id="@+id/cpr_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Create Project Room"
+        android:textSize="35sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.500"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.2"/>
+    <EditText
+        android:id="@+id/cpr_name"
+        android:layout_width="220dp"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="방 이름"
+        android:inputType="textPersonName"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.500"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.3" />
+
+    <EditText
+        android:id="@+id/cpr_pw"
+        android:layout_width="220dp"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="비밀번호"
+        android:inputType="textPersonName"
+        android:layout_marginTop="10dp"
+        app:layout_constraintTop_toBottomOf="@+id/cpr_name"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <EditText
+        android:id="@+id/cpr_deadLine"
+        android:layout_width="220dp"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="마감일(ex. 2023-02-08)"
+        android:inputType="phone"
+        android:layout_marginTop="10dp"
+        app:layout_constraintTop_toBottomOf="@+id/cpr_pw"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <Button
+        android:id="@+id/cpr_button"
+        android:layout_width="220dp"
+        android:layout_height="wrap_content"
+        android:text="프로젝트 방 생성"
+        android:layout_marginTop="30dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/cpr_deadLine" />
+
+    <Button
+        android:id="@+id/cpr_cancle"
+        android:layout_width="220dp"
+        android:layout_height="wrap_content"
+        android:text="취소"
+        android:layout_marginTop="10dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/cpr_button"
+        />
+</androidx.constraintlayout.widget.ConstraintLayout>

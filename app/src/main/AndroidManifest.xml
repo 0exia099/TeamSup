@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.teamsup">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_background"
+        android:label="TEAM SUPPORTER"
+        android:roundIcon="@mipmap/ic_background_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.TeamSup">
+        <activity
+            android:name=".MainActivity"
+            android:exported="true"
+            android:label="@string/app_name"
+            android:theme="@style/Theme.TeamSup.NoActionBar">
+        </activity>
+        <activity
+            android:name=".LoginActivity"
+            android:exported="true"
+            android:label="@string/app_name"
+            android:theme="@style/Theme.TeamSup.NoActionBar">
+        </activity>
+        <activity
+            android:name=".MembershipActivity"
+            android:exported="true"
+            android:label="@string/app_name"
+            android:theme="@style/Theme.TeamSup.NoActionBar">
+        </activity>
+        <activity
+            android:name=".BottomActivity"
+            android:exported="true"
+            android:label="@string/app_name"
+            android:theme="@style/Theme.TeamSup.NoActionBar">
+        </activity>
+        <activity
+            android:name=".ProfilesetActivity"
+            android:exported="true"
+            android:label="@string/app_name"
+            android:theme="@style/Theme.TeamSup.NoActionBar">
+        </activity>
+        <activity
+            android:name=".CreateprActivity"
+            android:exported="true"
+            android:label="@string/app_name"
+            android:theme="@style/Theme.TeamSup.NoActionBar">
+        </activity>
+        <activity
+            android:name=".JoinprojectActivity"
+            android:exported="true"
+            android:label="@string/app_name"
+            android:theme="@style/Theme.TeamSup.NoActionBar">
+        </activity>
+        <activity
+            android:name=".SetscheduleActivity"
+            android:exported="true"
+            android:label="@string/app_name"
+            android:theme="@style/Theme.TeamSup.NoActionBar">
+        </activity>
+        <activity
+            android:name=".StartActivity"
+            android:exported="true"
+            android:label="@string/app_name"
+            android:theme="@style/Theme.TeamSup.NoActionBar">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

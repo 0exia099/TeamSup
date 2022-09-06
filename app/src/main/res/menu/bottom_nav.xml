@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/navigation_Profile"
+        android:enabled="true"
+        android:icon="@drawable/ic_baseline_account_box_24"
+        android:title="Profile" />
+
+    <item
+        android:id="@+id/navigation_SearchProjectRoom"
+        android:enabled="true"
+        android:icon="@drawable/ic_baseline_search_24"
+        android:title="SearchProjectRoom" />
+
+
+</menu>
